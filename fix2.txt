@@ -98,6 +98,20 @@ git add fix2.txt
 git commit -m "Add commands for pushing to Github"
 git push
 
+17.
+18.
+19.
+git checkout main
+git rebase -i HEAD~2
+
+squash
+
+
+20.
+git branch feature3
+git checkout feature3
+noterpad fix2.txt
+git commit -a -m "added git commands for step 18 and 19"
 
 
 
