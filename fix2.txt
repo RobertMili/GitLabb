@@ -99,18 +99,30 @@ git commit -m "Add commands for pushing to Github"
 git push
 
 17.
+touch .gitignore
+echo "*.jar" >> .gitignore
+echo "out/" >> .gitignore
+echo "target/" >> .gitignore
+echo "!target/*.html" >> .gitignore
+!target/ -> den har addat manuel
+
+git add .
+git commit -m "added .gitignore"
+
 18.
+git tag -a v1.0 -m "Version 1.0"
 19.
 git checkout main
 git rebase -i HEAD~2
 
-squash
+// Jag hade ändrad i andra rad pick med squash
 
 
 20.
 git branch feature3
 git checkout feature3
 noterpad fix2.txt
+git add .
 git commit -a -m "added git commands for step 18 and 19"
 
 
