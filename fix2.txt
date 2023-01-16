@@ -99,6 +99,16 @@ git commit -m "Add commands for pushing to Github"
 git push
 
 
+17.
+touch .gitignore
+echo "*.jar" >> .gitignore
+echo "target/" >> .gitignore
+!target/*.html  -lagt manuel
+
+git add .gitignore
+git commit -m "added .gitignore"
+git push origin main
+
 
 
 

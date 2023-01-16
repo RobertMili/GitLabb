@@ -26,4 +26,10 @@ bin/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
+.DS_Store*.jar
+out/
+target/
+*.jar
+target/
+target/
+!tareget/*.html
