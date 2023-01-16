@@ -125,15 +125,7 @@ noterpad fix2.txt
 git add .
 git commit -a -m "added git commands for step 18 and 19"
 
-17.
-touch .gitignore
-echo "*.jar" >> .gitignore
-echo "target/" >> .gitignore
-!target/*.html  -lagt manuel
 
-git add .gitignore
-git commit -m "added .gitignore"
-git push origin main
 
 
 
