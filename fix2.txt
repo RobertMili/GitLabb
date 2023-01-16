@@ -89,6 +89,16 @@ git cherry-pick 0e2b
 notepad fix.txt
 git commit -a -m "Add all git commadns to fix2"
 
+16.
+git remote add origin git@github.com:RobertMili/GitLabb.git
+git puch -u origin main
+
+notepad fix2.txt
+git add fix2.txt
+git commit -m "Add commands for pushing to Github"
+git push
+
+
 
 
 
