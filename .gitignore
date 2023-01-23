@@ -28,8 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store*.jar
 out/
-target/
 *.jar
-target/
-target/
-!tareget/*.html
+target/**
+!tareget/**/*.html
